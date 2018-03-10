@@ -19,6 +19,8 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.FrameLayout
+import com.google.firebase.FirebaseApp
+import com.startup.app.fragments.FavoriteTabFragment
 
 import com.startup.app.fragments.FavoritesFragment
 import com.startup.app.fragments.HomeFragment
@@ -37,6 +39,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+
 
         fragmentManager = supportFragmentManager
 

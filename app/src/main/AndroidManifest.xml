@@ -3,9 +3,14 @@
     package="com.startup.app">
 
     <application
+
+        android:name=".App"
+
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
+
+
         <activity
             android:name="com.startup.app.MainActivity"
             android:label="@string/app_name"
