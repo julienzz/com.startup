@@ -21,7 +21,7 @@ class FavoritesFragment : Fragment() {
 
         val tabsAdapter = TabsAdapter(childFragmentManager)
         tabsAdapter.addFragment(FavoriteTabFragment(1), "Favorite 1")
-        tabsAdapter.addFragment(FavoriteTabFragment(2), "Favorite 2")
+        tabsAdapter.addFragment(FavoriteTabFragment2(2), "Favorite 2")
 
         viewPager.adapter = tabsAdapter
         tabLayout.setupWithViewPager(viewPager)
