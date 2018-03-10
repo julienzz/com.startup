@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "277951926081",
+    "firebase_url": "https://jdeidet-el-joumeh.firebaseio.com",
+    "project_id": "jdeidet-el-joumeh",
+    "storage_bucket": "jdeidet-el-joumeh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277951926081:android:79aae54c461b4060",
+        "android_client_info": {
+          "package_name": "com.example.julienchahoud.municipality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277951926081-t3k5mv68kkbrtm4bcft5b7g7h4r4bpit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.julienchahoud.municipality",
+            "certificate_hash": "7d6ffcbcad921b011c0f85d4d716695b5adab0eb"
+          }
+        },
+        {
+          "client_id": "277951926081-8bsonqbav0pf4i82m4qljqoesf5v03bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsUMYixl8I8Yq0qEULlwi2Wi-oMPhPorg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277951926081-8bsonqbav0pf4i82m4qljqoesf5v03bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277951926081:android:8734dc2876f7de87",
+        "android_client_info": {
+          "package_name": "io.droidmarvin.tabcardrecycler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277951926081-kmn40jjlct6lbpmo2bcdjir582tbknkg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.droidmarvin.tabcardrecycler",
+            "certificate_hash": "7d6ffcbcad921b011c0f85d4d716695b5adab0eb"
+          }
+        },
+        {
+          "client_id": "277951926081-8bsonqbav0pf4i82m4qljqoesf5v03bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsUMYixl8I8Yq0qEULlwi2Wi-oMPhPorg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277951926081-8bsonqbav0pf4i82m4qljqoesf5v03bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
