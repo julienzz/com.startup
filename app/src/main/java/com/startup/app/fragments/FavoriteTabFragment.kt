@@ -12,12 +12,10 @@ import android.widget.TextView
 import com.google.firebase.FirebaseApp
 import com.google.firebase.firestore.DocumentChange
 
-import com.startup.app.R
-import com.startup.app.Users
-import com.startup.app.UsersRecyclerAdapter
 import com.google.firebase.firestore.FirebaseFirestore
-import com.startup.app.MainActivity
+import com.startup.app.*
 import java.util.ArrayList
+import com.startup.app.App
 
 @SuppressLint("ValidFragment")
 class FavoriteTabFragment : Fragment {
@@ -40,11 +38,11 @@ class FavoriteTabFragment : Fragment {
 
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        FirebaseApp.initializeApp(context)
+
         val rootView = inflater!!.inflate(R.layout.fragment_tab, container, false)
 
         /////////////
-
+        App()
         mFirestore = FirebaseFirestore.getInstance()
 
         mUsersListView = rootView.findViewById(R.id.rV) as RecyclerView
